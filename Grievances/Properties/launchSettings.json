@@ -1,0 +1,32 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:9003",
+      "sslPort": 0
+    }
+  },
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "api/values",
+      "environmentVariables": {
+        "BLOB_KEY": "ODgXiSdupz8OT0fzzMUSjpoAFhvRUc2q4NSwuxtPa3MHVZDrWLuSH1kQpFrKlV0UOkC04HdO+hU64uEyMpScCQ==",
+        "BLOB_NAME": "punjabeadevfilestorage",
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "GHRabbitMQDemo": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "api/values",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:5001;http://localhost:5000"
+    }
+  }
+}
